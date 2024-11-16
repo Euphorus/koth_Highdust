@@ -1,0 +1,896 @@
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Programs\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading D:\koth_demomap.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/koth_demomap/dev/dev_blendmeasure_wvt_patch
+Patching WVT material: maps/koth_demomap/brick/blendcobbletocobblesnow001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\koth_demomap.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (47084 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 195 texinfos to 127
+Reduced 19 texdatas to 17 (500 bytes to 446)
+Writing D:\koth_demomap.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'D:\koth_demomap.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 1034, actual size 820
+1 second elapsed
+
+
+
+16 threads
+reading d:\koth_demomap.bsp
+reading d:\koth_demomap.prt
+ 473 portalclusters
+1396 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 402 visible clusters (0.21%)
+Total clusters visible: 194719
+Average clusters visible: 411
+Building PAS...
+Average clusters audible: 472
+visdatasize:60183  compressed from 60544
+writing d:\koth_demomap.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\koth_demomap.bsp', but we don't own that location. Allowing.
+7 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading d:\koth_demomap.bsp
+2428 faces
+3254147 square feet [468597280.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2428 patches before subdivision
+131030 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10485352, max 924
+transfer lists:  80.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0205 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/1024         1104/49152    ( 2.2%) 
+brushes                118/8192         1416/98304    ( 1.4%) 
+brushsides             708/65536        5664/524288   ( 1.1%) 
+planes                 446/65536        8920/1310720  ( 0.7%) 
+vertexes              2987/65536       35844/786432   ( 4.6%) 
+nodes                 1107/65536       35424/2097152  ( 1.7%) 
+texinfos               127/12288        9144/884736   ( 1.0%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2428/65536      135968/3670016  ( 3.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              488/65536       27328/3670016  ( 0.7%) 
+leaves                1131/65536       36192/2097152  ( 1.7%) 
+leaffaces             2538/65536        5076/131072   ( 3.9%) 
+leafbrushes            608/65536        1216/131072   ( 0.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            12637/512000      50548/2048000  ( 2.5%) 
+edges                 6713/256000      26852/1024000  ( 2.6%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            139/32768        1390/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1854/65536        3708/131072   ( 2.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     4451616/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       60183/16777216 ( 0.4%) 
+entdata               [variable]       23646/393216   ( 6.0%) 
+LDR ambient table     1131/65536        4524/262144   ( 1.7%) 
+HDR ambient table     1131/65536        4524/262144   ( 1.7%) 
+LDR leaf ambient       605/65536       16940/1835008  ( 0.9%) 
+HDR leaf ambient      1131/65536       31668/1835008  ( 1.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/416      ( 0.2%) 
+pakfile               [variable]         820/0        ( 0.0%) 
+physics               [variable]       47084/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5829
+Writing d:\koth_demomap.bsp
+6 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Programs\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading D:\koth_demomap.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/koth_demomap/dev/dev_blendmeasure_wvt_patch
+Patching WVT material: maps/koth_demomap/brick/blendcobbletocobblesnow001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\koth_demomap.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (47084 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 198 texinfos to 124
+Reduced 20 texdatas to 17 (527 bytes to 446)
+Writing D:\koth_demomap.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'D:\koth_demomap.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 1034, actual size 820
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\koth_demomap.bsp
+reading d:\koth_demomap.prt
+ 473 portalclusters
+1396 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 402 visible clusters (0.21%)
+Total clusters visible: 194719
+Average clusters visible: 411
+Building PAS...
+Average clusters audible: 472
+visdatasize:60183  compressed from 60544
+writing d:\koth_demomap.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\koth_demomap.bsp', but we don't own that location. Allowing.
+7 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading d:\koth_demomap.bsp
+2422 faces
+3253906 square feet [468562464.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2422 patches before subdivision
+131024 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10484734, max 924
+transfer lists:  80.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0205 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/1024         1104/49152    ( 2.2%) 
+brushes                118/8192         1416/98304    ( 1.4%) 
+brushsides             708/65536        5664/524288   ( 1.1%) 
+planes                 446/65536        8920/1310720  ( 0.7%) 
+vertexes              2987/65536       35844/786432   ( 4.6%) 
+nodes                 1107/65536       35424/2097152  ( 1.7%) 
+texinfos               124/12288        8928/884736   ( 1.0%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2422/65536      135632/3670016  ( 3.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              482/65536       26992/3670016  ( 0.7%) 
+leaves                1131/65536       36192/2097152  ( 1.7%) 
+leaffaces             2532/65536        5064/131072   ( 3.9%) 
+leafbrushes            608/65536        1216/131072   ( 0.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            12589/512000      50356/2048000  ( 2.5%) 
+edges                 6689/256000      26756/1024000  ( 2.6%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            139/32768        1390/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1854/65536        3708/131072   ( 2.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     4451616/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       60183/16777216 ( 0.4%) 
+entdata               [variable]       23644/393216   ( 6.0%) 
+LDR ambient table     1131/65536        4524/262144   ( 1.7%) 
+HDR ambient table     1131/65536        4524/262144   ( 1.7%) 
+LDR leaf ambient       606/65536       16968/1835008  ( 0.9%) 
+HDR leaf ambient      1131/65536       31668/1835008  ( 1.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/416      ( 0.2%) 
+pakfile               [variable]         820/0        ( 0.0%) 
+physics               [variable]       47084/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5817
+Writing d:\koth_demomap.bsp
+6 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Programs\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading D:\koth_demomap.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/koth_demomap/dev/dev_blendmeasure_wvt_patch
+Patching WVT material: maps/koth_demomap/brick/blendcobbletocobblesnow001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\koth_demomap.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (48735 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 209 texinfos to 124
+Reduced 20 texdatas to 17 (522 bytes to 446)
+Writing D:\koth_demomap.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'D:\koth_demomap.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 1034, actual size 820
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\koth_demomap.bsp
+reading d:\koth_demomap.prt
+ 472 portalclusters
+1392 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 379 visible clusters (0.20%)
+Total clusters visible: 192731
+Average clusters visible: 408
+Building PAS...
+Average clusters audible: 471
+visdatasize:59169  compressed from 60416
+writing d:\koth_demomap.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\koth_demomap.bsp', but we don't own that location. Allowing.
+8 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading d:\koth_demomap.bsp
+2421 faces
+3252085 square feet [468300320.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2421 patches before subdivision
+130639 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10454237, max 927
+transfer lists:  79.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0210 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  26/1024         1248/49152    ( 2.5%) 
+brushes                121/8192         1452/98304    ( 1.5%) 
+brushsides             726/65536        5808/524288   ( 1.1%) 
+planes                 462/65536        9240/1310720  ( 0.7%) 
+vertexes              2977/65536       35724/786432   ( 4.5%) 
+nodes                 1123/65536       35936/2097152  ( 1.7%) 
+texinfos               124/12288        8928/884736   ( 1.0%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2421/65536      135576/3670016  ( 3.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              482/65536       26992/3670016  ( 0.7%) 
+leaves                1150/65536       36800/2097152  ( 1.8%) 
+leaffaces             2531/65536        5062/131072   ( 3.9%) 
+leafbrushes            610/65536        1220/131072   ( 0.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            12583/512000      50332/2048000  ( 2.5%) 
+edges                 6686/256000      26744/1024000  ( 2.6%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            139/32768        1390/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1854/65536        3708/131072   ( 2.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     4447264/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       59169/16777216 ( 0.4%) 
+entdata               [variable]       23588/393216   ( 6.0%) 
+LDR ambient table     1150/65536        4600/262144   ( 1.8%) 
+HDR ambient table     1150/65536        4600/262144   ( 1.8%) 
+LDR leaf ambient       626/65536       17528/1835008  ( 1.0%) 
+HDR leaf ambient      1150/65536       32200/1835008  ( 1.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/416      ( 0.2%) 
+pakfile               [variable]         820/0        ( 0.0%) 
+physics               [variable]       48735/4194304  ( 1.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5813
+Writing d:\koth_demomap.bsp
+6 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Programs\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading D:\koth_demomap.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/koth_demomap/dev/dev_blendmeasure_wvt_patch
+Patching WVT material: maps/koth_demomap/brick/blendcobbletocobblesnow001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\koth_demomap.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (48735 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 209 texinfos to 124
+Reduced 20 texdatas to 17 (522 bytes to 446)
+Writing D:\koth_demomap.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'D:\koth_demomap.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 1034, actual size 820
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\koth_demomap.bsp
+reading d:\koth_demomap.prt
+ 472 portalclusters
+1392 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 379 visible clusters (0.20%)
+Total clusters visible: 192731
+Average clusters visible: 408
+Building PAS...
+Average clusters audible: 471
+visdatasize:59169  compressed from 60416
+writing d:\koth_demomap.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\koth_demomap.bsp', but we don't own that location. Allowing.
+9 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading d:\koth_demomap.bsp
+2421 faces
+3252085 square feet [468300320.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2421 patches before subdivision
+130639 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10454237, max 927
+transfer lists:  79.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0212 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  26/1024         1248/49152    ( 2.5%) 
+brushes                121/8192         1452/98304    ( 1.5%) 
+brushsides             726/65536        5808/524288   ( 1.1%) 
+planes                 470/65536        9400/1310720  ( 0.7%) 
+vertexes              2977/65536       35724/786432   ( 4.5%) 
+nodes                 1123/65536       35936/2097152  ( 1.7%) 
+texinfos               124/12288        8928/884736   ( 1.0%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2421/65536      135576/3670016  ( 3.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              482/65536       26992/3670016  ( 0.7%) 
+leaves                1150/65536       36800/2097152  ( 1.8%) 
+leaffaces             2531/65536        5062/131072   ( 3.9%) 
+leafbrushes            610/65536        1220/131072   ( 0.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            12583/512000      50332/2048000  ( 2.5%) 
+edges                 6686/256000      26744/1024000  ( 2.6%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            139/32768        1390/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1854/65536        3708/131072   ( 2.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     4447264/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       59169/16777216 ( 0.4%) 
+entdata               [variable]       23588/393216   ( 6.0%) 
+LDR ambient table     1150/65536        4600/262144   ( 1.8%) 
+HDR ambient table     1150/65536        4600/262144   ( 1.8%) 
+LDR leaf ambient       626/65536       17528/1835008  ( 1.0%) 
+HDR leaf ambient      1150/65536       32200/1835008  ( 1.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/416      ( 0.2%) 
+pakfile               [variable]         820/0        ( 0.0%) 
+physics               [variable]       48735/4194304  ( 1.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5813
+Writing d:\koth_demomap.bsp
+6 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Programs\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading D:\koth_demomap.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/koth_demomap/dev/dev_blendmeasure_wvt_patch
+Patching WVT material: maps/koth_demomap/brick/blendcobbletocobblesnow001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\koth_demomap.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (47086 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 195 texinfos to 127
+Reduced 19 texdatas to 17 (500 bytes to 446)
+Writing D:\koth_demomap.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'D:\koth_demomap.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 1034, actual size 820
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\koth_demomap.bsp
+reading d:\koth_demomap.prt
+ 472 portalclusters
+1392 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 379 visible clusters (0.20%)
+Total clusters visible: 192731
+Average clusters visible: 408
+Building PAS...
+Average clusters audible: 471
+visdatasize:59169  compressed from 60416
+writing d:\koth_demomap.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\koth_demomap.bsp', but we don't own that location. Allowing.
+7 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading d:\koth_demomap.bsp
+2427 faces
+3252984 square feet [468429728.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2427 patches before subdivision
+130645 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10450719, max 926
+transfer lists:  79.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0206 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/1024         1104/49152    ( 2.2%) 
+brushes                118/8192         1416/98304    ( 1.4%) 
+brushsides             708/65536        5664/524288   ( 1.1%) 
+planes                 454/65536        9080/1310720  ( 0.7%) 
+vertexes              2985/65536       35820/786432   ( 4.6%) 
+nodes                 1105/65536       35360/2097152  ( 1.7%) 
+texinfos               127/12288        9144/884736   ( 1.0%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2427/65536      135912/3670016  ( 3.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              488/65536       27328/3670016  ( 0.7%) 
+leaves                1129/65536       36128/2097152  ( 1.7%) 
+leaffaces             2537/65536        5074/131072   ( 3.9%) 
+leafbrushes            607/65536        1214/131072   ( 0.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            12631/512000      50524/2048000  ( 2.5%) 
+edges                 6710/256000      26840/1024000  ( 2.6%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            139/32768        1390/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1854/65536        3708/131072   ( 2.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     4447264/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       59169/16777216 ( 0.4%) 
+entdata               [variable]       23086/393216   ( 5.9%) 
+LDR ambient table     1129/65536        4516/262144   ( 1.7%) 
+HDR ambient table     1129/65536        4516/262144   ( 1.7%) 
+LDR leaf ambient       604/65536       16912/1835008  ( 0.9%) 
+HDR leaf ambient      1129/65536       31612/1835008  ( 1.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/618      ( 0.2%) 
+pakfile               [variable]         820/0        ( 0.0%) 
+physics               [variable]       47086/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5825
+Writing d:\koth_demomap.bsp
+6 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Programs\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading D:\koth_demomap.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/koth_demomap/dev/dev_blendmeasure_wvt_patch
+Patching WVT material: maps/koth_demomap/brick/blendcobbletocobblesnow001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\koth_demomap.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (47086 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 195 texinfos to 127
+Reduced 19 texdatas to 17 (500 bytes to 446)
+Writing D:\koth_demomap.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'D:\koth_demomap.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 1034, actual size 820
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\koth_demomap.bsp
+reading d:\koth_demomap.prt
+ 472 portalclusters
+1392 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 379 visible clusters (0.20%)
+Total clusters visible: 192731
+Average clusters visible: 408
+Building PAS...
+Average clusters audible: 471
+visdatasize:59169  compressed from 60416
+writing d:\koth_demomap.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\koth_demomap.bsp', but we don't own that location. Allowing.
+8 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading d:\koth_demomap.bsp
+2427 faces
+3252984 square feet [468429728.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2427 patches before subdivision
+130645 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10450719, max 926
+transfer lists:  79.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0211 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/1024         1104/49152    ( 2.2%) 
+brushes                118/8192         1416/98304    ( 1.4%) 
+brushsides             708/65536        5664/524288   ( 1.1%) 
+planes                 454/65536        9080/1310720  ( 0.7%) 
+vertexes              2985/65536       35820/786432   ( 4.6%) 
+nodes                 1105/65536       35360/2097152  ( 1.7%) 
+texinfos               127/12288        9144/884736   ( 1.0%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2427/65536      135912/3670016  ( 3.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              488/65536       27328/3670016  ( 0.7%) 
+leaves                1129/65536       36128/2097152  ( 1.7%) 
+leaffaces             2537/65536        5074/131072   ( 3.9%) 
+leafbrushes            607/65536        1214/131072   ( 0.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            12631/512000      50524/2048000  ( 2.5%) 
+edges                 6710/256000      26840/1024000  ( 2.6%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            139/32768        1390/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1854/65536        3708/131072   ( 2.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     4447264/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       59169/16777216 ( 0.4%) 
+entdata               [variable]       23224/393216   ( 5.9%) 
+LDR ambient table     1129/65536        4516/262144   ( 1.7%) 
+HDR ambient table     1129/65536        4516/262144   ( 1.7%) 
+LDR leaf ambient       604/65536       16912/1835008  ( 0.9%) 
+HDR leaf ambient      1129/65536       31612/1835008  ( 1.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/618      ( 0.2%) 
+pakfile               [variable]         820/0        ( 0.0%) 
+physics               [variable]       47086/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5825
+Writing d:\koth_demomap.bsp
+6 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Programs\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading D:\koth_demomap.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/koth_demomap/dev/dev_blendmeasure_wvt_patch
+Patching WVT material: maps/koth_demomap/brick/blendcobbletocobblesnow001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\koth_demomap.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (63051 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 225 texinfos to 155
+Reduced 20 texdatas to 18 (522 bytes to 468)
+Writing D:\koth_demomap.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'D:\koth_demomap.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 1034, actual size 820
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\koth_demomap.bsp
+reading d:\koth_demomap.prt
+ 609 portalclusters
+1898 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 675 visible clusters (0.21%)
+Total clusters visible: 326808
+Average clusters visible: 536
+Building PAS...
+Average clusters audible: 608
+visdatasize:98419  compressed from 97440
+writing d:\koth_demomap.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\koth_demomap.bsp', but we don't own that location. Allowing.
+38 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading d:\koth_demomap.bsp
+2871 faces
+3333838 square feet [480072768.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2871 patches before subdivision
+144877 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 14468135, max 1043
+transfer lists: 110.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0266 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  22/1024         1056/49152    ( 2.1%) 
+brushes                162/8192         1944/98304    ( 2.0%) 
+brushsides             972/65536        7776/524288   ( 1.5%) 
+planes                 502/65536       10040/1310720  ( 0.8%) 
+vertexes              3530/65536       42360/786432   ( 5.4%) 
+nodes                 1298/65536       41536/2097152  ( 2.0%) 
+texinfos               155/12288       11160/884736   ( 1.3%) 
+texdata                 18/2048          576/65536    ( 0.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2871/65536      160776/3670016  ( 4.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              690/65536       38640/3670016  ( 1.1%) 
+leaves                1321/65536       42272/2097152  ( 2.0%) 
+leaffaces             3073/65536        6146/131072   ( 4.7%) 
+leafbrushes            713/65536        1426/131072   ( 1.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            15674/512000      62696/2048000  ( 3.1%) 
+edges                 8480/256000      33920/1024000  ( 3.3%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            203/32768        2030/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2766/65536        5532/131072   ( 4.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     4977568/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       98419/16777216 ( 0.6%) 
+entdata               [variable]       52942/393216   (13.5%) 
+LDR ambient table     1321/65536        5284/262144   ( 2.0%) 
+HDR ambient table     1321/65536        5284/262144   ( 2.0%) 
+LDR leaf ambient       735/65536       20580/1835008  ( 1.1%) 
+HDR leaf ambient      1321/65536       36988/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/416      ( 0.2%) 
+pakfile               [variable]         820/0        ( 0.0%) 
+physics               [variable]       63051/4194304  ( 1.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 7172
+Writing d:\koth_demomap.bsp
+8 seconds elapsed
