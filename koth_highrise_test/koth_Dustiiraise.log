@@ -442,3 +442,51 @@ Level flags = 0
 Total triangle count: 8150
 Writing c:\users\lonew\onedrive\documents\github\koth_highdust\koth_highrise_test\koth_DustIIRaise.bsp
 7 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Programs\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\k010885m\Documents\GitHub\koth_Highdust\koth_highrise_test\koth_DustIIRaise.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/koth_dustiiraise/dev/dev_blendmeasure_wvt_patch
+Patching WVT material: maps/koth_dustiiraise/brick/blendcobbletocobblesnow001_wvt_patch
+Patching WVT material: maps/koth_dustiiraise/nature/blendgroundtograss003_nodetail_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\k010885m\Documents\GitHub\koth_Highdust\koth_highrise_test\koth_DustIIRaise.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_goldrush_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_goldrush_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_goldrush_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_goldrush_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (99068 bytes)
+Error! To use model "models/combine_helicopter.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/combine_helicopter.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 612 texinfos to 351
+Reduced 25 texdatas to 21 (753 bytes to 611)
+Writing C:\Users\k010885m\Documents\GitHub\koth_Highdust\koth_highrise_test\koth_DustIIRaise.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\k010885m\Documents\GitHub\koth_Highdust\koth_highrise_test\koth_DustIIRaise.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 2068, actual size 1586
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\k010885m\documents\github\koth_highdust\koth_highrise_test\koth_DustIIRaise.bsp
+reading c:\users\k010885m\documents\github\koth_highdust\koth_highrise_test\koth_DustIIRaise.prt
+ 823 portalclusters
+2749 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...
