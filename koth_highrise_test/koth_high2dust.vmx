@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "10225"
-	"mapversion" "98"
+	"mapversion" "99"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "98"
+	"mapversion" "99"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -32319,21 +32319,6 @@ entity
 	"spawnflags" "0"
 	"style" "0"
 	"origin" "-928 -2112 64"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "40011"
-	"classname" "env_soundscape"
-	"radius" "-1"
-	"soundscape" "GenericOutdoor"
-	"origin" "2304 -416 -63"
 	editor
 	{
 		"color" "220 30 220"
