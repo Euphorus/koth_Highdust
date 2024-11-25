@@ -3934,3 +3934,862 @@ Level flags = 0
 Total triangle count: 12403
 Writing c:\users\k010885m\documents\github\koth_highdust\koth_highrise_test\koth_high2dust.bsp
 15 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Programs\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\k010885m\Documents\GitHub\koth_Highdust\koth_highrise_test\koth_high2dust.vmf
+material "sharkbay/water_well2" not found.
+Material not found!: SHARKBAY/WATER_WELL2
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/koth_high2dust/brick/blendcobbletocobblesnow001_wvt_patch
+Patching WVT material: maps/koth_high2dust/nature/blendgroundtograss003_nodetail_wvt_patch
+Patching WVT material: maps/koth_high2dust/nature/blendgroundtogravel008_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (-5024.84 -264.30 2999.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 13824.0 -128.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3584.0 14336.0 -128.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2560.0 14336.0 -128.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 12800.0 -128.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 11776.0 -128.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4096.0 10752.0 -128.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1536.0 14336.0 -128.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 13368.0 -1760.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (144740 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 822 texinfos to 530
+Reduced 32 texdatas to 27 (889 bytes to 718)
+Writing C:\Users\k010885m\Documents\GitHub\koth_Highdust\koth_highrise_test\koth_high2dust.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\k010885m\Documents\GitHub\koth_Highdust\koth_highrise_test\koth_high2dust.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 213885, actual size 212867
+1 second elapsed
+CMaterialDict::Shutdown m_MissingList count: 1
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\k010885m\documents\github\koth_highdust\koth_highrise_test\koth_high2dust.bsp
+No vis information, direct lighting only.
+5108 faces
+9196569 square feet [1324305920.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+38 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0200 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/1024         1104/49152    ( 2.2%) 
+brushes                367/8192         4404/98304    ( 4.5%) 
+brushsides            2381/65536       19048/524288   ( 3.6%) 
+planes                1610/65536       32200/1310720  ( 2.5%) 
+vertexes              6577/65536       78924/786432   (10.0%) 
+nodes                 3244/65536      103808/2097152  ( 4.9%) 
+texinfos               530/12288       38160/884736   ( 4.3%) 
+texdata                 27/2048          864/65536    ( 1.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 5108/65536      286048/3670016  ( 7.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1629/65536       91224/3670016  ( 2.5%) 
+leaves                3268/65536      104576/2097152  ( 5.0%) 
+leaffaces             5824/65536       11648/131072   ( 8.9%) 
+leafbrushes           1561/65536        3122/131072   ( 2.4%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            29776/512000     119104/2048000  ( 5.8%) 
+edges                15986/256000      63944/1024000  ( 6.2%) 
+LDR worldlights         38/8192         3344/720896   ( 0.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            372/32768        3720/327680   ( 1.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5220/65536       10440/131072   ( 8.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     8480252/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       85617/393216   (21.8%) 
+LDR ambient table     3268/65536       13072/262144   ( 5.0%) 
+HDR ambient table     3268/65536       13072/262144   ( 5.0%) 
+LDR leaf ambient     23887/65536      668836/1835008  (36.4%) 
+HDR leaf ambient      3268/65536       91504/1835008  ( 5.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/6806     ( 0.0%) 
+pakfile               [variable]      212867/0        ( 0.0%) 
+physics               [variable]      144740/4194304  ( 3.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 13037
+Writing c:\users\k010885m\documents\github\koth_highdust\koth_highrise_test\koth_high2dust.bsp
+20 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Programs\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\k010885m\Documents\GitHub\koth_Highdust\koth_highrise_test\koth_high2dust.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/koth_high2dust/brick/blendcobbletocobblesnow001_wvt_patch
+Patching WVT material: maps/koth_high2dust/nature/blendgroundtograss003_nodetail_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\k010885m\Documents\GitHub\koth_Highdust\koth_highrise_test\koth_high2dust.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (139982 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 804 texinfos to 524
+Reduced 28 texdatas to 24 (764 bytes to 623)
+Writing C:\Users\k010885m\Documents\GitHub\koth_Highdust\koth_highrise_test\koth_high2dust.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\k010885m\Documents\GitHub\koth_Highdust\koth_highrise_test\koth_high2dust.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 213341, actual size 212457
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\k010885m\documents\github\koth_highdust\koth_highrise_test\koth_high2dust.bsp
+No vis information, direct lighting only.
+4347 faces
+5156945 square feet [742600064.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+38 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0175 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/1024         1104/49152    ( 2.2%) 
+brushes                354/8192         4248/98304    ( 4.3%) 
+brushsides            2303/65536       18424/524288   ( 3.5%) 
+planes                1524/65536       30480/1310720  ( 2.3%) 
+vertexes              5650/65536       67800/786432   ( 8.6%) 
+nodes                 2227/65536       71264/2097152  ( 3.4%) 
+texinfos               524/12288       37728/884736   ( 4.3%) 
+texdata                 24/2048          768/65536    ( 1.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4347/65536      243432/3670016  ( 6.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1573/65536       88088/3670016  ( 2.4%) 
+leaves                2251/65536       72032/2097152  ( 3.4%) 
+leaffaces             4895/65536        9790/131072   ( 7.5%) 
+leafbrushes           1360/65536        2720/131072   ( 2.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            26392/512000     105568/2048000  ( 5.2%) 
+edges                14218/256000      56872/1024000  ( 5.6%) 
+LDR worldlights         38/8192         3344/720896   ( 0.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            356/32768        3560/327680   ( 1.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5094/65536       10188/131072   ( 7.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     8093280/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       84713/393216   (21.5%) 
+LDR ambient table     2251/65536        9004/262144   ( 3.4%) 
+HDR ambient table     2251/65536        9004/262144   ( 3.4%) 
+LDR leaf ambient     16108/65536      451024/1835008  (24.6%) 
+HDR leaf ambient      2251/65536       63028/1835008  ( 3.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/4434     ( 0.0%) 
+pakfile               [variable]      212457/0        ( 0.0%) 
+physics               [variable]      139982/4194304  ( 3.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 11399
+Writing c:\users\k010885m\documents\github\koth_highdust\koth_highrise_test\koth_high2dust.bsp
+7 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Programs\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\k010885m\Documents\GitHub\koth_Highdust\koth_highrise_test\koth_high2dust.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/koth_high2dust/brick/blendcobbletocobblesnow001_wvt_patch
+Patching WVT material: maps/koth_high2dust/nature/blendgroundtograss003_nodetail_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\k010885m\Documents\GitHub\koth_Highdust\koth_highrise_test\koth_high2dust.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (142470 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 822 texinfos to 528
+Reduced 30 texdatas to 26 (807 bytes to 666)
+Writing C:\Users\k010885m\Documents\GitHub\koth_Highdust\koth_highrise_test\koth_high2dust.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\k010885m\Documents\GitHub\koth_Highdust\koth_highrise_test\koth_high2dust.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 213341, actual size 212457
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\k010885m\documents\github\koth_highdust\koth_highrise_test\koth_high2dust.bsp
+No vis information, direct lighting only.
+4549 faces
+5792794 square feet [834162368.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+38 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0202 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/1024         1104/49152    ( 2.2%) 
+brushes                362/8192         4344/98304    ( 4.4%) 
+brushsides            2351/65536       18808/524288   ( 3.6%) 
+planes                1564/65536       31280/1310720  ( 2.4%) 
+vertexes              5901/65536       70812/786432   ( 9.0%) 
+nodes                 2359/65536       75488/2097152  ( 3.6%) 
+texinfos               528/12288       38016/884736   ( 4.3%) 
+texdata                 26/2048          832/65536    ( 1.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4549/65536      254744/3670016  ( 6.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1584/65536       88704/3670016  ( 2.4%) 
+leaves                2383/65536       76256/2097152  ( 3.6%) 
+leaffaces             5115/65536       10230/131072   ( 7.8%) 
+leafbrushes           1456/65536        2912/131072   ( 2.2%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            27290/512000     109160/2048000  ( 5.3%) 
+edges                14681/256000      58724/1024000  ( 5.7%) 
+LDR worldlights         38/8192         3344/720896   ( 0.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            356/32768        3560/327680   ( 1.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5094/65536       10188/131072   ( 7.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     8393400/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       84974/393216   (21.6%) 
+LDR ambient table     2383/65536        9532/262144   ( 3.6%) 
+HDR ambient table     2383/65536        9532/262144   ( 3.6%) 
+LDR leaf ambient     17084/65536      478352/1835008  (26.1%) 
+HDR leaf ambient      2383/65536       66724/1835008  ( 3.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/4436     ( 0.0%) 
+pakfile               [variable]      212457/0        ( 0.0%) 
+physics               [variable]      142470/4194304  ( 3.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 11849
+Writing c:\users\k010885m\documents\github\koth_highdust\koth_highrise_test\koth_high2dust.bsp
+9 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Programs\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\k010885m\Documents\GitHub\koth_Highdust\koth_highrise_test\koth_high2dust.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/koth_high2dust/brick/blendcobbletocobblesnow001_wvt_patch
+Patching WVT material: maps/koth_high2dust/nature/blendgroundtograss003_nodetail_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\k010885m\Documents\GitHub\koth_Highdust\koth_highrise_test\koth_high2dust.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (142470 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 822 texinfos to 528
+Reduced 30 texdatas to 26 (807 bytes to 666)
+Writing C:\Users\k010885m\Documents\GitHub\koth_Highdust\koth_highrise_test\koth_high2dust.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\k010885m\Documents\GitHub\koth_Highdust\koth_highrise_test\koth_high2dust.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 213341, actual size 212457
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\k010885m\documents\github\koth_highdust\koth_highrise_test\koth_high2dust.bsp
+No vis information, direct lighting only.
+4549 faces
+5792794 square feet [834162368.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+38 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0197 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/1024         1104/49152    ( 2.2%) 
+brushes                362/8192         4344/98304    ( 4.4%) 
+brushsides            2351/65536       18808/524288   ( 3.6%) 
+planes                1564/65536       31280/1310720  ( 2.4%) 
+vertexes              5901/65536       70812/786432   ( 9.0%) 
+nodes                 2359/65536       75488/2097152  ( 3.6%) 
+texinfos               528/12288       38016/884736   ( 4.3%) 
+texdata                 26/2048          832/65536    ( 1.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4549/65536      254744/3670016  ( 6.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1584/65536       88704/3670016  ( 2.4%) 
+leaves                2383/65536       76256/2097152  ( 3.6%) 
+leaffaces             5115/65536       10230/131072   ( 7.8%) 
+leafbrushes           1456/65536        2912/131072   ( 2.2%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            27290/512000     109160/2048000  ( 5.3%) 
+edges                14681/256000      58724/1024000  ( 5.7%) 
+LDR worldlights         38/8192         3344/720896   ( 0.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            356/32768        3560/327680   ( 1.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5094/65536       10188/131072   ( 7.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     8393400/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       84972/393216   (21.6%) 
+LDR ambient table     2383/65536        9532/262144   ( 3.6%) 
+HDR ambient table     2383/65536        9532/262144   ( 3.6%) 
+LDR leaf ambient     17702/65536      495656/1835008  (27.0%) 
+HDR leaf ambient      2383/65536       66724/1835008  ( 3.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/7382     ( 0.0%) 
+pakfile               [variable]      212457/0        ( 0.0%) 
+physics               [variable]      142470/4194304  ( 3.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 11849
+Writing c:\users\k010885m\documents\github\koth_highdust\koth_highrise_test\koth_high2dust.bsp
+8 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Programs\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\k010885m\Documents\GitHub\koth_Highdust\koth_highrise_test\koth_high2dust.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/koth_high2dust/brick/blendcobbletocobblesnow001_wvt_patch
+Patching WVT material: maps/koth_high2dust/nature/blendgroundtograss003_nodetail_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\k010885m\Documents\GitHub\koth_Highdust\koth_highrise_test\koth_high2dust.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (142470 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 822 texinfos to 528
+Reduced 30 texdatas to 26 (807 bytes to 666)
+Writing C:\Users\k010885m\Documents\GitHub\koth_Highdust\koth_highrise_test\koth_high2dust.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\k010885m\Documents\GitHub\koth_Highdust\koth_highrise_test\koth_high2dust.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 213341, actual size 212457
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\k010885m\documents\github\koth_highdust\koth_highrise_test\koth_high2dust.bsp
+No vis information, direct lighting only.
+4549 faces
+5792794 square feet [834162368.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+38 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0219 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/1024         1104/49152    ( 2.2%) 
+brushes                362/8192         4344/98304    ( 4.4%) 
+brushsides            2351/65536       18808/524288   ( 3.6%) 
+planes                1564/65536       31280/1310720  ( 2.4%) 
+vertexes              5901/65536       70812/786432   ( 9.0%) 
+nodes                 2359/65536       75488/2097152  ( 3.6%) 
+texinfos               528/12288       38016/884736   ( 4.3%) 
+texdata                 26/2048          832/65536    ( 1.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4549/65536      254744/3670016  ( 6.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1584/65536       88704/3670016  ( 2.4%) 
+leaves                2383/65536       76256/2097152  ( 3.6%) 
+leaffaces             5115/65536       10230/131072   ( 7.8%) 
+leafbrushes           1456/65536        2912/131072   ( 2.2%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            27290/512000     109160/2048000  ( 5.3%) 
+edges                14681/256000      58724/1024000  ( 5.7%) 
+LDR worldlights         38/8192         3344/720896   ( 0.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            356/32768        3560/327680   ( 1.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5094/65536       10188/131072   ( 7.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     8393400/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       84970/393216   (21.6%) 
+LDR ambient table     2383/65536        9532/262144   ( 3.6%) 
+HDR ambient table     2383/65536        9532/262144   ( 3.6%) 
+LDR leaf ambient     17702/65536      495656/1835008  (27.0%) 
+HDR leaf ambient      2383/65536       66724/1835008  ( 3.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/7382     ( 0.0%) 
+pakfile               [variable]      212457/0        ( 0.0%) 
+physics               [variable]      142470/4194304  ( 3.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 11849
+Writing c:\users\k010885m\documents\github\koth_highdust\koth_highrise_test\koth_high2dust.bsp
+9 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Programs\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\k010885m\Documents\GitHub\koth_Highdust\koth_highrise_test\koth_high2dust.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/koth_high2dust/brick/blendcobbletocobblesnow001_wvt_patch
+Patching WVT material: maps/koth_high2dust/nature/blendgroundtograss003_nodetail_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\k010885m\Documents\GitHub\koth_Highdust\koth_highrise_test\koth_high2dust.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (142470 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 826 texinfos to 528
+Reduced 30 texdatas to 26 (807 bytes to 666)
+Writing C:\Users\k010885m\Documents\GitHub\koth_Highdust\koth_highrise_test\koth_high2dust.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\k010885m\Documents\GitHub\koth_Highdust\koth_highrise_test\koth_high2dust.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 213341, actual size 212457
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\k010885m\documents\github\koth_highdust\koth_highrise_test\koth_high2dust.bsp
+No vis information, direct lighting only.
+4548 faces
+5792794 square feet [834162432.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+38 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0192 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/1024         1104/49152    ( 2.2%) 
+brushes                370/8192         4440/98304    ( 4.5%) 
+brushsides            2399/65536       19192/524288   ( 3.7%) 
+planes                1600/65536       32000/1310720  ( 2.4%) 
+vertexes              5898/65536       70776/786432   ( 9.0%) 
+nodes                 2360/65536       75520/2097152  ( 3.6%) 
+texinfos               528/12288       38016/884736   ( 4.3%) 
+texdata                 26/2048          832/65536    ( 1.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4548/65536      254688/3670016  ( 6.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1582/65536       88592/3670016  ( 2.4%) 
+leaves                2384/65536       76288/2097152  ( 3.6%) 
+leaffaces             5130/65536       10260/131072   ( 7.8%) 
+leafbrushes           1526/65536        3052/131072   ( 2.3%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            27269/512000     109076/2048000  ( 5.3%) 
+edges                14674/256000      58696/1024000  ( 5.7%) 
+LDR worldlights         38/8192         3344/720896   ( 0.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            355/32768        3550/327680   ( 1.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5082/65536       10164/131072   ( 7.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     8392352/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       84970/393216   (21.6%) 
+LDR ambient table     2384/65536        9536/262144   ( 3.6%) 
+HDR ambient table     2384/65536        9536/262144   ( 3.6%) 
+LDR leaf ambient     17782/65536      497896/1835008  (27.1%) 
+HDR leaf ambient      2384/65536       66752/1835008  ( 3.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/7370     ( 0.0%) 
+pakfile               [variable]      212457/0        ( 0.0%) 
+physics               [variable]      142470/4194304  ( 3.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 11837
+Writing c:\users\k010885m\documents\github\koth_highdust\koth_highrise_test\koth_high2dust.bsp
+8 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Programs\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\k010885m\Documents\GitHub\koth_Highdust\koth_highrise_test\koth_high2dust.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/koth_high2dust/brick/blendcobbletocobblesnow001_wvt_patch
+Patching WVT material: maps/koth_high2dust/nature/blendgroundtograss003_nodetail_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\k010885m\Documents\GitHub\koth_Highdust\koth_highrise_test\koth_high2dust.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_harvest_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_harvest_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_harvest_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_harvest_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (142470 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 826 texinfos to 528
+Reduced 30 texdatas to 26 (807 bytes to 666)
+Writing C:\Users\k010885m\Documents\GitHub\koth_Highdust\koth_highrise_test\koth_high2dust.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\k010885m\Documents\GitHub\koth_Highdust\koth_highrise_test\koth_high2dust.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 1571, actual size 1223
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\k010885m\documents\github\koth_highdust\koth_highrise_test\koth_high2dust.bsp
+No vis information, direct lighting only.
+4548 faces
+5792794 square feet [834162432.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+38 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0199 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/1024         1104/49152    ( 2.2%) 
+brushes                370/8192         4440/98304    ( 4.5%) 
+brushsides            2399/65536       19192/524288   ( 3.7%) 
+planes                1600/65536       32000/1310720  ( 2.4%) 
+vertexes              5898/65536       70776/786432   ( 9.0%) 
+nodes                 2360/65536       75520/2097152  ( 3.6%) 
+texinfos               528/12288       38016/884736   ( 4.3%) 
+texdata                 26/2048          832/65536    ( 1.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4548/65536      254688/3670016  ( 6.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1582/65536       88592/3670016  ( 2.4%) 
+leaves                2384/65536       76288/2097152  ( 3.6%) 
+leaffaces             5130/65536       10260/131072   ( 7.8%) 
+leafbrushes           1526/65536        3052/131072   ( 2.3%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            27269/512000     109076/2048000  ( 5.3%) 
+edges                14674/256000      58696/1024000  ( 5.7%) 
+LDR worldlights         38/8192         3344/720896   ( 0.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            355/32768        3550/327680   ( 1.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5082/65536       10164/131072   ( 7.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     8392352/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       84971/393216   (21.6%) 
+LDR ambient table     2384/65536        9536/262144   ( 3.6%) 
+HDR ambient table     2384/65536        9536/262144   ( 3.6%) 
+LDR leaf ambient     17291/65536      484148/1835008  (26.4%) 
+HDR leaf ambient      2384/65536       66752/1835008  ( 3.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/7370     ( 0.0%) 
+pakfile               [variable]        1223/0        ( 0.0%) 
+physics               [variable]      142470/4194304  ( 3.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 11837
+Writing c:\users\k010885m\documents\github\koth_highdust\koth_highrise_test\koth_high2dust.bsp
+8 seconds elapsed
